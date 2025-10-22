@@ -4,7 +4,222 @@
 	(generator_version "9.0")
 	(uuid 9bab99da-495f-4bc8-8309-6e936296b542)
 	(paper "A4")
-	(lib_symbols)
+	(title_block
+		(title "Hash Vault")
+		(date "2025-10-21")
+		(rev "2.0")
+		(comment 1 "by MeridianAlgo")
+		(comment 2 "Elite 6-ASIC Design - 2.4 TH/s @ 48W")
+		(comment 3 "Industry-Leading 20 J/TH Efficiency")
+		(comment 4 "Based on Bitaxe open-source design")
+	)
+	(lib_symbols
+		(symbol "Power:+12V"
+			(power)
+			(pin_names (offset 0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font (size 1.27 1.27))
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+		)
+		(symbol "Power:+3V3"
+			(power)
+			(pin_names (offset 0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font (size 1.27 1.27))
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+		)
+		(symbol "Power:GND"
+			(power)
+			(pin_names (offset 0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font (size 1.27 1.27))
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font (size 1.27 1.27))
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+					(number "1"
+						(effects
+							(font (size 1.27 1.27))
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 100 50)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "junction-power-1")
+	)
+	(text "POWER SUPPLY SECTION\nHigh-efficiency buck converter\n12V input to 0.9V ASIC core"
+		(exclude_from_sim no)
+		(at 40 30 0)
+		(effects
+			(font (size 2 2))
+			(justify left)
+		)
+		(uuid "text-power-section")
+	)
+	(text "ASIC SECTION\nBM1397 Bitcoin Mining ASIC\nOptimized for low power, high hash rate"
+		(exclude_from_sim no)
+		(at 140 30 0)
+		(effects
+			(font (size 2 2))
+			(justify left)
+		)
+		(uuid "text-asic-section")
+	)
+	(text "COOLING & THERMAL\nActive cooling with PWM fan control\nThermal sensors for monitoring"
+		(exclude_from_sim no)
+		(at 40 120 0)
+		(effects
+			(font (size 2 2))
+			(justify left)
+		)
+		(uuid "text-cooling-section")
+	)
+	(text "COMMUNICATION\nESP32-S3 for WiFi connectivity\nUART interface to ASIC"
+		(exclude_from_sim no)
+		(at 140 120 0)
+		(effects
+			(font (size 2 2))
+			(justify left)
+		)
+		(uuid "text-comm-section")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
