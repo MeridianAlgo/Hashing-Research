@@ -50,11 +50,11 @@ Optimize for <20W. Test tweaks by next week. Energy savings = profit gains!
 ---
 
 
-## 10/21/2025 - Hash Vault Elite Edition Design
+## 10/24/2025 - Hash Vault Elite Edition Design
 
 # ⚡ Elite 6-ASIC Architecture by MeridianAlgo
 
-## Date: October 21, 2025
+## Date: October 24, 2025
 
 ### 🎯 Design Goal
 Transform unprofitable mining into **REAL DAILY PROFIT** by engineering the most efficient small-scale Bitcoin miner available.
@@ -222,29 +222,6 @@ Hash Vault Elite = BEST IN CLASS! 🏆
 - If BTC doubles: Break-even in 1-2 years
 - If BTC 3×: Break-even in <1 year
 
-### 🚀 Advanced Features
-
-#### AI-Powered Auto-Tuning
-- Automatically finds optimal voltage/frequency per ASIC
-- Maximizes profit based on electricity rate
-- Adapts to temperature changes
-- Learns from historical performance data
-
-#### Web Dashboard
-Access via browser (WiFi or Ethernet):
-- Real-time monitoring (hash rate, power, temp, profit)
-- Historical graphs and analytics
-- Power mode selection
-- Pool configuration
-- Firmware OTA updates
-- Profitability calculator
-
-#### Smart Scheduling
-- Time-based power modes (mine during cheap electricity hours)
-- Temperature-based throttling
-- Automatic pool failover
-- Maintenance windows
-
 ### 📊 Hash Rate Performance Chart
 
 ```
@@ -275,17 +252,6 @@ All modes maintain 20 J/TH efficiency! ⚡
 - ✅ Quiet operation (vs industrial noise)
 - ✅ Affordable ($250 vs $1,500)
 
-### 🌟 Why Hash Vault Elite Edition?
-
-
-1. **REAL PROFIT** - $0.18-0.33/day = $65-120/year passive income
-2. **Industry-Leading Efficiency** - 20 J/TH beats most miners
-3. **Quiet Operation** - Noctua fans = whisper-quiet
-4. **Open Source** - Fully customizable and community-driven
-5. **Educational** - Learn about Bitcoin mining and hardware design
-6. **Supports Bitcoin** - Contribute to network decentralization
-7. **Scalable** - Can expand to 12 ASICs for even more profit
-
 ### 📈 Power Consumption vs Revenue Chart
 
 ```
@@ -310,10 +276,10 @@ PROFIT:     $0.18-0.33 ███████████████ 💰
 
 ### 🔥 Key Achievements
 
-✅ Solved unprofitability problem (50W @ -$0.07/day → 48W @ +$0.18-0.33/day)
+✅ Solved underprofitability problem (50W @ -$0.07/day → 48W @ +$0.18-0.33/day)
 ✅ Achieved terahash performance (2.4 TH/s)
 ✅ Industry-leading efficiency (20 J/TH)
-✅ Designed complete 6-ASIC system
+✅ Designed a complete 6-ASIC system
 ✅ Created comprehensive BOM and specifications
 ✅ Branded as "Hash Vault by MeridianAlgo"
 
@@ -339,7 +305,12 @@ PROFIT:     $0.18-0.33 ███████████████ 💰
 - Profit optimization algorithms
 - Adaptive scheduling
 
+### Notes
+**Wow, this took a lot to write, even with us using AI to help us out with some markdown elements. If you are following us thus far into our journey, thank you. We greatly appreciate your support.**
+
+**Sincerely:**
+- ***Ishaan***
+- ***Tanish***
+- ***Daniel***
+
 ---
-
-*Hash Vault Elite Edition by MeridianAlgo - Where efficiency meets profitability* ⚡💰🏆
-
